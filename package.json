@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-jest": "^28.1.0",
+    "babel-preset-env": "^1.7.0",
+    "node": "^17.7.2",
+    "ts-jest": "^28.0.3"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
