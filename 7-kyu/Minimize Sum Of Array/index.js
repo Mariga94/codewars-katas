@@ -32,3 +32,5 @@ function minSum(arr) {
     }
     return sum;
   }
+
+ export default minSum;
