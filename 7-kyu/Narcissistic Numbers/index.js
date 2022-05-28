@@ -11,7 +11,7 @@ function isNarcissistic(n) {
     let str = String(n)
     let pow = 0
     for (let i = 0; i < str.length; i++) {
-      pow += Math.pow(parseInt(str[i]), 3)
+      pow += Math.pow(parseInt(str[i]), str.length)
     }
     return pow === n ? true : false
   }
